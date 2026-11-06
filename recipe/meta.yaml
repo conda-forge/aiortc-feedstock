@@ -1,12 +1,12 @@
-{% set version = "1.15.0" %}
+{% set version = "1.16.0" %}
 
 package:
   name: aiortc
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/a/aiortc/aiortc-{{ version }}.tar.gz
-  sha256: ee6c0757ca070cf6d6bee441936d6ede24eef51211bbff6653409c540f72e625
+  url: https://files.pythonhosted.org/packages/source/a/aiortc/aiortc-{{ version }}.tar.gz
+  sha256: 892a1d22ec500a41c6a2377a372db575929d9e9f614e9a2276b145cf40924798
 
 build:
   noarch: python
